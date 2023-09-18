@@ -16047,7 +16047,7 @@ const nS = () =>
                   y.jsx("p", {
                     className:
                       "text-white text-4xl md:text-[5rem] md:leading-[8rem]",
-                    children: "100,000,000,000",
+                    children: "10,000,000",
                   }),
                   y.jsx("p", {
                     className: "text-llbrwn text-3xl lg:text-4xl",
@@ -16066,7 +16066,7 @@ const nS = () =>
                       y.jsx("p", {
                         className:
                           "text-white text-9xl md:text-[18rem] md:leading-[16rem]",
-                        children: "2%",
+                        children: "0%",
                       }),
                       y.jsx("p", {
                         className: "text-llbrwn text-6xl lg:text-8xl",
@@ -16081,7 +16081,7 @@ const nS = () =>
                       y.jsx("p", {
                         className:
                           "text-white text-9xl md:text-[18rem] md:leading-[16rem]",
-                        children: "2%",
+                        children: "0%",
                       }),
                       y.jsx("p", {
                         className: "text-llbrwn text-6xl lg:text-8xl",
