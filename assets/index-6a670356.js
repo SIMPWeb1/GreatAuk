@@ -8998,8 +8998,8 @@ var ny = bf.exports,
 const ry = [
     { link: "#history", name: "History" },
     { link: "#tokenomics", name: "Tokenomics" },
-    { link: "#buy", name: "Buy" ,href:"/"},
-    { link: "#chart", name: "Chart",href:"/"},
+    { link: "#buy", name: "Buy" ,href:"https://app.uniswap.org/#/swap?outputCurrency=0xE0E026cAEC72e0DD820bF43A561faf2575424961"},
+    { link: "#chart", name: "Chart",href:"https://dexscreener.com/arbitrum/0xE0E026cAEC72e0DD820bF43A561faf2575424961"},
   ],
   iy = () => {
     const [e, t] = N.useState(!1),
@@ -15465,7 +15465,8 @@ const Kw = () =>
                 className: "flex gap-x-4",
                 children: [
                   y.jsx("a", {
-                    href: "https://twitter.com/coin_dodo",
+                    href: "https://twitter.com/GreatAukUS",
+                    target:"_blank",
                     children: y.jsx("button", {
                       className:
                         "px-8 py-4 bg-white border-solid border-2 border-drkblu rounded-full font-bold text-lg hover:-translate-y-1 hover:drop-shadow-[0px_5px_0px_rgba(0,0,0,0.25)] transition-all ease-in-out duration-200",
@@ -15473,7 +15474,8 @@ const Kw = () =>
                     }),
                   }),
                   y.jsx("a", {
-                    href: "https://t.me/dodo_erc",
+                    href: "https://t.me/Great_Auk",
+                    target:"_blank",
                     children: y.jsx("button", {
                       className:
                         "px-8 py-4 bg-lblu border-solid border-2 border-drkblu rounded-full font-bold text-lg hover:-translate-y-1 hover:drop-shadow-[0px_5px_0px_rgba(0,0,0,0.25)] transition-all ease-in-out duration-200",
@@ -16097,14 +16099,14 @@ const nS = () =>
                 children: [
                   y.jsx(tS, {
                     onClick:()=>{
-                        navigator.clipboard.writeText("0xf51f3B3C45cc8b96F646f0427Cecd179344F8171");
+                        navigator.clipboard.writeText("0xE0E026cAEC72e0DD820bF43A561faf2575424961");
                     } ,
                     className:
                       "text-2xl cursor-pointer hover:scale-[1.06] transition-all ease-in-out duration-300",
                   }),
                   y.jsx("p", {
                     className: "font-caprasimo text-sm lg:text-2xl",
-                    children: "0xf51f3B3C45cc8b96F646f0427Cecd179344F8171",
+                    children: "0xE0E026cAEC72e0DD820bF43A561faf2575424961",
                   }),
                 ],
               }),
@@ -16113,7 +16115,8 @@ const nS = () =>
                   "text-ddbrwn flex flex-col lg:flex-row gap-y-4 gap-x-8",
                 children: [
                   y.jsxs("a", {
-                    href: "https://www.dextools.io/app/en/ether/pair-explorer/0x6be419b8126f2c0736444c6800f67a242a377f2c",
+                    target:"_blank",
+                    href: "https://dexscreener.com/arbitrum/0xE0E026cAEC72e0DD820bF43A561faf2575424961",
                     children: [
                       " ",
                       y.jsxs("div", {
@@ -16135,7 +16138,8 @@ const nS = () =>
                     ],
                   }),
                   y.jsx("a", {
-                    href: "https://app.uniswap.org/#/swap?outputCurrency=0xf51f3b3c45cc8b96f646f0427cecd179344f8171",
+                    target:"_blank",
+                    href: "https://app.uniswap.org/#/swap?outputCurrency=0xE0E026cAEC72e0DD820bF43A561faf2575424961",
                     children: y.jsxs("div", {
                       className:
                         "buy-token relative flex items-center justify-center cursor-pointer hover:scale-[1.08] transition-all ease-in-out duration-300 w-60 lg:w-auto",
