@@ -15474,7 +15474,7 @@ const Kw = () =>
                     }),
                   }),
                   y.jsx("a", {
-                    href: "https://t.me/Great_Auk_Channel",
+                    href: "https://t.me/GreatAukChannel",
                     target:"_blank",
                     children: y.jsx("button", {
                       className:
